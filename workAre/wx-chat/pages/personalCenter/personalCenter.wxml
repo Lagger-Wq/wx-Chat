@@ -1,0 +1,36 @@
+<!--pages/personalCenter/personalCenter.wxml-->
+<view class='box'>
+<!-- 上面 -->
+<view class='personal' bindtap='infomation'>
+   <view class='login'>{{loginState}}</view>
+   <view class='suggest'>{{title}}</view>
+   <view class='logoImg'>
+       <image src='{{logoImg}}'></image>
+   </view>
+</view>
+<!-- 中间list -->
+<view class='center'>
+  <view class='jianli' bindtap='jianli'>
+    <view class='item'>
+       <image src='../../img/rightback.png'></image>
+    </view>
+   <image  src='../../img/jianli.png'></image><text>简历</text>
+  </view>
+  <view class='sendHistory' bindtap='sendHistory'>
+   <view class='item'><image src='../../img/rightback.png'></image></view>
+   <image src='../../img/jilu.png'></image> <text>投递记录</text>
+  </view>
+  <view class='collectPosition' bindtap='collectPosition'>
+   <view class='item'><image src='../../img/rightback.png'></image></view>
+   <image src='../../img/shoucang.png'></image> <text>职位收藏</text>
+  </view>
+  <view class='suggstReturn' bindtap='suggstReturn'>
+   <view class='item'><image src='../../img/rightback.png'></image></view>
+   <image  src='../../img/fankui.png'></image><text> 意见反馈</text>
+  </view>
+</view>
+<!-- 切换 -->
+<view class='qiehuan'>切换至我要招人</view>
+<view class='logout {{active}}' bindtap='logout'>退出登录</view>
+</view>
+

@@ -1,0 +1,13 @@
+/* pages/companyDetails/companyDetails.wxss */
+.job{
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.job view{
+  padding: 10px;
+  font-size: 16px;
+  color: #616155;
+}

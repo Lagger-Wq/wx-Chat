@@ -1,0 +1,38 @@
+<!--职位页面-->
+<!-- title -->
+<component
+  id='component'
+  bind:onChangePlay = 'changeIsPlay'
+  wx:if="{{isPlay?false:true}}"/>
+  
+  <view  wx:if="{{isPlay?true:false}}">
+<view class='title'>
+   <view class='logo'><image src='../../img/logo.jpg'></image></view>
+   <input placeholder='搜索公司/职位' bindconfirm="updataValue"></input>
+</view>
+<!-- suggest -->
+<view class='suggest'>——为你推荐的职位——</view>
+<!-- content -->
+<view class='content'>
+<!-- jobList -->
+  <view 
+  class='item-jobLst' 
+  bindtap='goToJobDetails' 
+  wx:for="{{searchList}}" 
+  wx:key="{{item.companyId}}"
+  data-companyid="{{item.positionId}}" >
+   <view class='companyLogo'>
+     <image src='https://www.lgstatic.com/{{item.companyLogo}}'></image>
+   </view>
+   <view class='resume'>
+     <view class='jobName'>{{item.positionName}}</view>
+     <view class='companyName'>{{item.companyName}}</view>
+     <view class='location'>{{item.city}} | 上海 | 3-5年 | 大专</view>
+     <view class='salary'>{{item.salary}}</view>
+     <view class='updata-time'>{{item.createTime}}</view>
+   </view>
+  </view>
+
+  </view>
+</view>
+

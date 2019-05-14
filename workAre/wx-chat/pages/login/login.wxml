@@ -1,0 +1,7 @@
+<!--pages/login/login.wxml-->
+<view class='box'>
+  <view class='title'>登录拉钩</view>
+  <input class='userName' placeholder='请输入已验证的手机号或邮箱' bindblur="user"></input>
+  <input class='pwd' type='password' placeholder='请输入密码' bindblur='passw'></input>
+  <view class='btn' bindtap='loginTo'>登录</view>
+</view>

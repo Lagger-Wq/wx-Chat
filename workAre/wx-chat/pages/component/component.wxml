@@ -1,0 +1,13 @@
+<!--pages/component/component.wxml-->
+<view class='box' wx:if="{{isShow}}">
+  <view class='title'>——你期望的工作——</view>
+  <view>
+  <!-- <view>定位</view> -->
+  <!-- <input class='seartch' placeholder='输入职位关键字'></input> -->
+  <view class='job'>
+   <view wx:for="{{job}}" class='{{(item1==item)?"active":"notactive"}}' wx:key="{{item}}" data-jobname="{{item}}"  bindtap='active1'>{{item}}</view>
+  </view>
+</view>
+<view class='ok {{active}}' bindtap='goToSearch'>我选好了，去找工作</view>
+</view>
+

@@ -1,0 +1,35 @@
+<!--pages/jobDetails/jobDetails.wxml-->
+<!-- 简单的职位描述 -->
+<view class='jobDetailsbBox'>
+<view class='miaoshu'>
+   <view class='jobName'>{{jobDetails.positionName}}</view>
+   <view class='jobMoney'>
+      <text>{{jobDetails.salary}} </text>/{{jobDetails.city}} / 3-5年 / 大专
+   </view>
+   <view class='jobLure'>
+     职位诱惑：公司背景好，福利好，实力雄厚
+   </view>
+</view>
+<!-- 公司描述 -->
+<view class='company'>
+  <view class='companyName'>{{jobDetails.companyFullName}}    </view>
+  <view class='companyCondition'>
+    B轮/150-500人/移动物联网，电子商务
+  </view>
+  <view class='comfire'>已认证</view>
+  <view class='companyLogo'>
+     <image src='https://www.lgstatic.com/{{jobDetails.companyLogo}}'></image>
+  </view>
+</view>
+
+<!-- 职位描述 -->
+<view class='title'>职位描述</view>
+<view class='btn'>PHP</view>
+<view class='positionDetail'>
+<view class='bottom'>
+    <text class='share'>分享</text>
+    <text class='collect'>收藏</text>
+    <text class='sendResume'>投递简历</text>
+</view>
+</view>
+</view>

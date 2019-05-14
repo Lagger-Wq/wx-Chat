@@ -1,0 +1,94 @@
+/* pages/personalCenter/personalCenter.wxss */
+.box{
+  height: 800px;
+  background-color: #F9FAF9;
+}
+.personal{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  padding: 0px 20px;
+}
+.login{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.suggest{
+  font-size: 16px;
+  color: rgb(134, 130, 130);
+}
+.logoImg{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  top: 10px;
+  right:70px;
+}
+.logoImg image{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.center{
+  overflow: hidden;
+}
+.center view{
+  position: relative;
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 2px;
+  line-height: 60px;
+}
+.center view image{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: 17px;
+  margin-right:15px; 
+}
+.jianli{
+  margin-top: 10px
+}
+.center view text{
+  height: 40px;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 16px;
+}
+.center .item{
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0px;
+  right: 28px;
+}
+.center .item image{
+  width: 15px;
+  height: 15px;
+}
+.qiehuan{
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 16px;
+  background-color: white;
+  margin-top: 10px;
+}
+.logout{
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(151, 150, 150);
+}
+.active{
+  display: none
+}

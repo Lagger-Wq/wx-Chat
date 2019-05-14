@@ -1,0 +1,18 @@
+<!--pages/infomation/infomation.wxml-->
+<view class='box'>
+<view class='logoInfo'>
+  <view class='nickname'>{{personalData.nickName}}</view>
+   <view class='myselfInfo'>
+   {{personalData.sex}}|{{personalData.idName}}||{{personalData.age}}
+   </view>
+    <view class='num'>
+      <view class='phoneNum'>
+       {{personalData.phoneNum}}
+      </view>
+       <view class='email'>
+          {{personalData.Email}}
+       </view>
+    </view>
+</view>
+<view class='myself'></view>
+</view>

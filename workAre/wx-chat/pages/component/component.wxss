@@ -1,0 +1,40 @@
+/* pages/component/component.wxss */
+.title{
+  width: 100%;
+  display: block;
+  text-align: center
+}
+.job{
+  width:90%;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+.job view{
+  padding:5px 15px;
+  height: 25px;
+  font-size: 16px;
+  color: #616155;
+  margin-left: 10px;
+  border: 1px solid  #616155;
+  border-radius: 12px;
+}
+.ok{
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  /* background-color: #2BC998; */
+  background-color: rgb(114, 121, 119);
+  line-height: 50px;
+  text-align: center;
+}
+.active{
+  background-color: #2BC998;
+  border: none;
+}
+.notacctive{
+  background-color: white;
+}

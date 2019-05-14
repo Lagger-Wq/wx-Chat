@@ -1,0 +1,116 @@
+/* pages/jobDetails/jobDetails.wxss */
+/* 简单的职位描述 */
+.jobDetailsbBox{
+  padding:0px 15px;
+}
+.miaoshu{
+  margin-top: 10px;
+  height: 120px;
+}
+.jobName{
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.jobMoney{
+  font-size: 16px;
+  margin-bottom: 10px
+}
+.jobMoney text{
+  color: #FC613B;
+}
+.jobLure{
+  color: #CFCFCF;
+  font-size: 16px
+}
+/* 公司描述 */
+.company{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.company .companyName{
+  font-size: 20px
+}
+.company .companyCondition{
+font-size: 18px;
+margin-top: 5px;
+margin-bottom: 5px;
+color: #919998;
+}
+.company .comfire{
+  width: 60px;
+  height: 20px;
+  border: 1px solid #2BC998;
+  color: #2BC998;
+  border-radius: 5px;
+  text-align: center; 
+font-size: 14px;
+}
+.company .companyLogo{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.company .companyLogo image{
+  width: 60px;
+  height: 60px;
+}
+/* 职位描述 */
+.title{
+  font-size: 20px;
+  margin-bottom: 10px
+}
+.btn{
+  width: 70px;
+  height: 40px;
+  border: 1px solid #CFCFCF;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+.positionDetail{
+  width: 100%;
+  height: 200px;
+  background-color: floralwhite;
+}
+/* bottom投递简历 */
+.bottom{
+  position: fixed;
+  bottom: 0px;
+  background-color: reba(255,255,255,.5);
+  width: 100%;
+}
+.bottom text{
+  display: inline-block;
+}
+.bottom .share,.collect{
+width: 17%;
+height: 50px;
+line-height: 50px;
+text-align: center;
+color: #CFCFCF;
+font-size: 14px;
+}
+.bottom .sendResume{
+  width: 58%;
+  background-color: #2BC998;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+

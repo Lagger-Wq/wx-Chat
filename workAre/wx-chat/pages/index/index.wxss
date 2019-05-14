@@ -1,0 +1,93 @@
+/* title */
+.title{
+   width: 100%;
+   height: 105px;
+  background-color: #2BC998;
+  text-align: center;
+}
+.logo{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: white;
+}
+.logo image{
+  width: 100px;
+  height: 50px
+}
+.title input{
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  background-color: white;
+margin: 0 auto;
+border-radius: 20px;
+}
+ .title input::placeholder{
+   font-size: 10px;
+   color: #CFCFCF;
+ }
+ /* content */
+ .suggest{
+   width: 100%;
+   height:70px;
+   line-height:70px;
+   text-align: center;
+   color: #7A7A79;
+   font-size: 17px;
+ }
+ .content{
+   width:100%;
+   padding: 0px 15px;
+ }
+  .content .item-jobLst{
+    width:93%;
+    height: 90px;
+    position: relative;
+    border-bottom: 1px solid #ECF0EE;
+    margin-bottom:5px; 
+  }
+ .companyLogo{
+   width: 60px;
+   height: 90px;
+   float: left;
+ }
+ .companyLogo image{
+    width: 60px;
+    height: 60px;
+    margin-top: 15px
+ }
+.content .resume{
+  margin-left: 20px;
+  width: 250px;
+  height: 90px;
+  float: left;
+}
+.content .resume .jobName{
+  font-size: 18px;
+}
+.content .resume .companyName{
+  margin-top: 10px;
+  color: #898988;
+  font-size: 15px;
+}
+.content .resume .location{
+  font-size: 13px;
+  margin-top: 10px;
+  color: #BFB9B9;
+}
+.content .resume .salary{
+  position: absolute;
+  top: 0px;
+  right: 2px;
+  font-size: 16px;
+  color: #FC613B;
+
+}
+.content .resume .updata-time{
+  position: absolute;
+  bottom: 10px;
+  right: 2px;
+  font-size: 14px;
+  color: #BFB9B9;
+}
